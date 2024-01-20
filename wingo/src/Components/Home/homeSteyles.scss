@@ -1,0 +1,336 @@
+.home-hero{
+  
+   img{
+      width: 100%;
+      // height: 100%;
+   }
+
+
+   .about{
+      position: absolute;
+      top: 0px;
+width: 100%;
+   }
+//    .corusel-text{
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//       display: flex;
+//       flex-direction: column;
+//       text-align: center;
+//       font-size: 236px;
+//       font-weight: 900;
+//       color: white;
+//       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//       .first-text{
+// font-size: 30px;
+//       }
+//       .second-text{
+// font-size: 50px;
+// margin-bottom: -50px;
+//       }
+//    }
+}
+
+.hero-texts{
+   display: flex;
+   justify-content: space-between;
+   margin: 40px;
+   .section-first-column{
+      margin: 50px 80px;
+      h2{
+         font-size: 60px;
+      }
+      
+   }
+   .section-second-column,.section-third-column{
+      h3{
+         display: flex;
+         flex-direction: column;
+         padding: 60px 40px 30px 0;
+         font-size: 24px;
+         span{
+            padding-top: 30px;
+            font-size: 18px;
+            color: rgb(92, 91, 91);
+         }
+      }
+   }
+}
+.main-slide{
+   display: flex;
+   justify-content: space-between;
+   margin: 40px;
+   .slide-img-left{
+      // background-color: #fff; /* Set the background color */
+  box-shadow: 0 8px 18px 0 rgba(17, 5, 124, 0.5); /* Add shadow */
+      img{
+
+         width: 700px;
+      }
+   }
+   .slide-right{
+      width: 400px;
+      height: 500px;
+      background-color:#ffffff;
+      .slide-right-text{
+
+         h3{
+            font-size: 36px;
+            padding: 50px;
+            color: #452b78;
+         }
+         p{
+            color: gray;
+            padding: 0 50px;
+            letter-spacing: 2px;
+         }
+      }
+      .avatar{
+         display: flex;
+         padding: 30px 50px 0px 50px;
+         .avatar-img{
+            // padding-right: 30psx;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 40px;
+
+         }
+         div{
+            p{
+               font-weight: 600;
+            }
+            span{
+               opacity: 0.7;
+            }
+            color: #452b78;
+         }
+      }
+   }
+}
+
+
+
+// test
+.slider {
+   height: 500px;
+   // padding-left: 15px;
+   overflow: hidden; /* One of the importing things for slide effect */
+ }
+ 
+ .slider .slider-text-1,.slider-text-2,.slider-text-3 {
+   height: 500px;
+   // padding: 2px 15px;
+   color: #ffffff;
+   // text-align: center;
+   // margin-bottom:  50px;
+   box-sizing: border-box;
+ }
+ 
+ .slider-text-1 {
+   background: #ffffff;
+   animation: slide 12s linear infinite;
+ }
+ 
+ .slider-text-2 {
+   background: #ffffff;
+ }
+ 
+ .slider-text-3 {
+   background: #ffffff;
+ }
+ 
+ @keyframes slide {
+   0% {
+     margin-top: -1500px;
+   }
+   5% {
+     /* For stopping effect */
+     margin-top: -1000px;
+   }
+   33% {
+     margin-top: -1000px;
+   }
+   38% {
+     /* For stopping effect */
+     margin-top: -500px;
+   }
+   66% {
+     margin-top: -500px;
+   }
+   71% {
+     /* For stopping effect */
+     margin-top: 0px;
+   }
+   100% {
+     margin-top: 0px;
+   }
+ }
+ .middle-text{
+   font-size: 46px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   padding: 100px 0px 80px 0px;
+   span{
+      font-size: 22px;
+      color: #452b78;
+      text-align: center;
+   margin-top: 30px;
+   }
+ }
+
+
+ //button
+ .discover{
+   background-color: white;
+   color: #452b78;
+   border: 3px solid #452b78;
+   width: 200px;
+   height: 60px;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 40px;
+   &:hover{
+      background-color: #452b78;
+      color:white;
+   transition: all 0.4s;
+   }
+}
+
+//sectioin modern features
+.modern-features{
+   margin-top: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   h2{
+      display: flex;
+      justify-content: center;
+      padding: 50px 0px;
+      font-size: 65px;
+   }
+   .btn-center{
+      display: flex;
+      justify-content: center;
+   }
+   .text-features{
+      display: flex;
+      flex-direction: row;
+      .first-column{
+         text-align: right;
+         padding: 30px ;
+         span{
+            font-size: 30px;
+            padding: 30px 0px 16px 0px;
+         }
+         p{
+            font-size: 18px;
+            padding: 0px 50px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+         }
+      }
+      .last-column{
+         text-align: left;
+         padding: 30px;
+         span{
+            font-size: 30px;
+            padding: 30px 0px 16px 0px;
+         }
+         p{
+            font-size: 18px;
+            padding: 0px 50px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+         }
+         
+      }
+   }
+
+}
+//midle img section
+.midle-img{
+   background-color: #b0d5db;
+   display: flex;
+   justify-content: space-between;
+   height: 440px;
+   margin: 150px 0px 100px 0px;
+   h3{
+      color: #ffffff;
+      font-size: 52px;
+      padding: 60px 110px 0px 170px;
+   }
+   p{
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 20px 95px 90px 170px;
+      line-height: 30px;
+   }
+   div{
+display: flex;
+flex-direction: column;
+justify-content: end;
+      img{
+         width: 660px;
+      }
+   }
+}
+//last img section
+.last-section-hero{
+   display: flex;
+   .last-section-img{
+      margin: 50px 200px;
+   }
+   .last-section-text{
+      h3{
+         font-size: 54px;
+         padding: 0px 50px 30px 30px;
+      }
+      p{
+         font-size: 20px;
+         opacity: 0.6;
+         padding: 0px 50px 20px 30px;
+      }
+      button{
+         margin-left: 32px;
+      }
+   }
+}
+//footer
+.first-footer{
+   background-color: #2d1953;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   h3{
+      font-size: 56px;
+      padding: 60px 0px 30px 0px;
+      color: #ffffff;
+   }
+   p{
+      font-size: 22px;
+      padding-bottom: 30px;
+      color: #ffffff;
+   }
+   form{
+      display: flex;
+      #email{
+         width: 800px;
+         height: 54px;
+         background-color: #6f42c1;
+         border: none;
+         color: #aa80f7;
+         font-size: 18px;
+      }
+      .submit{
+         margin-left: 50px;
+      }
+      }
+}

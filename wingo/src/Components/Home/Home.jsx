@@ -1,9 +1,5 @@
 import "./homeSteyles.css";
-// import Carousel from "../../Interactive/Carousel";
-// import Carousel from "../../Interactive/CarouselCard/CarouselCard";
-// import Carousel from "../../Interactive/CarouselCard/CarouselCard";
 import Carousel from "../../Interactive/Carousel";
-// import HorizontalCarousel from "../../Interactive/CarouselCard/CarouselCard";
 import CarouselWrap from "../../Interactive/CarouselCard/CarouselCard";
 import Footer from "./Footer/Footer";
 export default function Home() {
@@ -247,23 +243,7 @@ export default function Home() {
           <button className="discover">Discover more</button>
         </div>
       </div>
-      <footer>
-        <div className="first-footer">
-          <h3>Subscribe to our newsletter</h3>
-          <p>Cursus, enim a ultrices venenatis, ante magna varius.</p>
-          <form action="">
-            <input
-              type="mail"
-              id="email"
-              name="email"
-              placeholder="Your e-mail address here"
-            />
-            <label htmlFor="email"></label>
-            <input className="submit" type="submit" value="Submit" />
-          </form>
-        </div>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
